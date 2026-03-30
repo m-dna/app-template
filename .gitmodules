@@ -1,0 +1,4 @@
+[submodule "common"]
+	path = common
+	url = https://github.com/m-dna/common.git
+	branch = main
