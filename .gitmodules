@@ -2,3 +2,6 @@
 	path = common
 	url = https://github.com/m-dna/common.git
 	branch = main
+[submodule "gtest"]
+	path = gtest
+	url = https://github.com/google/googletest.git
