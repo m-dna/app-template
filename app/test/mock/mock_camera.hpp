@@ -5,8 +5,8 @@
 #include "hal/camera.hpp"
 
 class MockCamera : public hal::Camera {
-public:
-    MOCK_METHOD(uint8_t*, get_raw_image, (), (override));
-}; // class MockCamera
+ public:
+  MOCK_METHOD(uint8_t*, get_raw_image, (), (override));
+};  // class MockCamera
 
-#endif // MOCK_CAMERA_HPP
+#endif  // MOCK_CAMERA_HPP

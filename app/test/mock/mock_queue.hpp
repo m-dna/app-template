@@ -5,9 +5,9 @@
 #include "osal/queue.hpp"
 
 class MockQueue : public osal::Queue {
-public:
-    MOCK_METHOD(void, send, (const void* data, uint32_t size), (override));
-    MOCK_METHOD(void, receive, (void* data, uint32_t size), (override));
-}; // class MockQueue
+ public:
+  MOCK_METHOD(void, send, (const void* data, uint32_t size), (override));
+  MOCK_METHOD(void, receive, (void* data, uint32_t size), (override));
+};  // class MockQueue
 
-#endif // MOCK_QUEUE_HPP
+#endif  // MOCK_QUEUE_HPP
