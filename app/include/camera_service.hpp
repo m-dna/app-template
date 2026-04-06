@@ -7,7 +7,7 @@
 
 enum class CameraTaskState { IDLE, RUNNING, STOPPED };
 
-class CameraTask {
+class CameraService {
  private:
   CameraTaskState state = CameraTaskState::IDLE;
   hal::Camera* camera;
