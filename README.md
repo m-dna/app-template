@@ -4,6 +4,7 @@ APP[모듈명] 프로젝트
 
 ## 프로젝트 구조
 
+``` python
 my_project/
 ├── .clang-format          # 코드 스타일 자동 정리 규칙
 ├── .gitattributes         # 대용량 파일 처리 및 줄바꿈(LF/CRLF) 설정
@@ -34,3 +35,4 @@ my_project/
     ├── design.xsa         # Vivado 추출 파일
     ├── constraints.xdc    # Constrants 파일
     └── backup.tcl         # 프로젝트 재생성을 위한 tcl 스크립트 등
+```
