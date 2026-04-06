@@ -106,3 +106,4 @@ modules.order
 #######################################
 .env
 .env.*
+compile-commands.json

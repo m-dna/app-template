@@ -5,3 +5,7 @@
 [submodule "gtest"]
 	path = gtest
 	url = https://github.com/google/googletest.git
+[submodule "comm"]
+	path = comm
+	url = https://github.com/m-dna/comm.git
+	branch = main
