@@ -62,7 +62,6 @@ __pycache__/
 
 # hardware / platform build outputs
 *.xpfm
-*.xsa
 *.hdf
 
 # BSP / build
